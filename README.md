@@ -8,7 +8,8 @@ Illegal dumping is the practice of throwing waste or not useful items in the und
 
 Calculating illegal dumping based on the distance between trash detection and human detection bounding box.
 
-![image](https://user-images.githubusercontent.com/78490598/219909921-b8492845-8e2d-4ddc-9e5b-af2deaacb5e6.png)
+<img width="803" alt="Screen Shot 2023-02-18 at 7 18 29 PM" src="https://user-images.githubusercontent.com/78490598/219910352-9d5984c9-02ee-496e-bfb5-28ad20d082f1.png">
+
 
 # System Architeture -
 
