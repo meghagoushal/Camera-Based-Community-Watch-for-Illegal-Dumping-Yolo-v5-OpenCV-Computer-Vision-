@@ -4,6 +4,12 @@ Detecting illegal dumping action in modern cities using Computer Vision methods 
 # Abstract -
 Illegal dumping is the practice of throwing waste or not useful items in the undesignated areas of the society. This practice leads to environmental and health hazards. Improper disposal of waste items is a bigger issue for the local authorities and private companies as well as a lot of money is spent to resolve this issue. According to waste generation statistics in 2019, the United States of America produced the third highest waste per capita annually. Illegal dumping seems to be a harmless act in the short run, but it has harmful long-term consequences that include land, soil, air, and water pollution. After the pandemic the situation has become even worse, there are almost more than 300 cases reported in Santa Cruz county which means on a daily average one case has been reported. Furthermore, San Jose state is imposing a fine of $10000 for illegal dumping action. Hence, I tried to solve the problem of illegal dumping action detection by coming up with an innovative solution. Using YOLO v5 to detect human, vehicle, license plate and trash. After detecting I was also using deep SORT for tracking the objects and the human to detect the illegal dumping action. The action is detected by a decision module where if the distance between the bounding box of the human and the trash is less than a certain threshold and then increases then it would be detected as an illegal dumping action. Our model can detect the objects and the dumping action in day as well as nighttime. I have used night vision dataset to make our model more enhanced and accurate in detecting trash and dumping action. Efficient and quick detection of illegal dumping action could be useful for the local authorities, so I trained our model on real- time examples as well as the COCO dataset for more accurate object detection. The project focuses on building a web application where a person can either upload a video or report illegal dumping and then the concerned authorities would be notified with the details of the incident. The model can identify trash with 97% accuracy.
 
+# YOLO V5 and OCR and DeepSORT
+
+Calculating illegal dumping based on the distance between trash detection and human detection bounding box.
+
+![image](https://user-images.githubusercontent.com/78490598/219909921-b8492845-8e2d-4ddc-9e5b-af2deaacb5e6.png)
+
 # System Architeture -
 
 ![image](https://user-images.githubusercontent.com/78490598/219909250-08521a34-e06d-49d6-bdcb-db8d075bc991.png)
